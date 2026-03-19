@@ -39,7 +39,7 @@ See Horus_Crypto_Whitepaper_v1.0.pdf in this repository.
 ## Social Links
 
 Telegram:
-https://t.me/HorusCrypto_Chat
+https://t.me/Horus_CryptoHQ
 
 Facebook:
 https://www.facebook.com/HorusCryptoBsc
