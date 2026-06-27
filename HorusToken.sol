@@ -1,131 +1,85 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.20;
+pragma solidity ^0.8.35;
+
+import {ERC20} from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 /**
- * Horus Crypto (HORUS)
- * Clean fixed-supply ERC20 (BEP20-compatible on BSC)
- * - No privileged roles
- * - No mint (after deploy), burn, blacklist, taxes, limits, pause, or restrictions
- * - Single-file (easy to verify)
+ * @title HORUS
+ * @notice Fixed-supply BEP-20 compatible token for BNB Smart Chain.
+ *
+ * Token details:
+ * - Name: HORUS
+ * - Symbol: HORUS
+ * - Decimals: 18
+ * - Total Supply: 1,000,000,000 HORUS
+ *
+ * Design:
+ * - Fixed supply
+ * - No owner
+ * - No external mint function
+ * - No burn function
+ * - No pause function
+ * - No blacklist
+ * - No whitelist
+ * - No taxes
+ * - No transaction limits
+ * - No wallet limits
+ * - No cooldown
+ * - No anti-bot logic
+ * - No trading restrictions
+ * - No proxy
+ * - No upgradeability
+ * - No privileged functions after deployment
  */
-contract HorusCrypto {
-    // Token metadata
-    string public constant name = "Horus Crypto";
-    string public constant symbol = "HORUS";
-    uint8 public constant decimals = 18;
+contract HORUS is ERC20 {
 
-    // Project links (on-chain, public)
-    string public constant WEBSITE  = "https://horuscrypto.com";
-    string public constant X_PROFILE = "https://x.com/HorusCryptoHQ";
+    uint8 public constant TOKEN_DECIMALS = 18;
+    uint256 private constant TOKEN_UNIT = 1e18;
 
-    // Total supply: 250,000,000 * 10^18
-    uint256 public constant totalSupply = 250_000_000 * 10**uint256(decimals);
+    uint256 public constant TOTAL_SUPPLY = 1_000_000_000 * TOKEN_UNIT;
 
-    // --- Allocation wallets (EDIT THESE BEFORE DEPLOY) ---
-    address public constant WALLET_LIQUIDITY         = 0x451E074E1843b3c3bCa13aD7FeC0c27293e3CB5c; // 10%  = 25,000,000
-    address public constant WALLET_TREASURY          = 0x9be4b76ca2aE87848C97Ac204a0aDa9F1563D4b4; // 35%  = 87,500,000
-    address public constant WALLET_DEPOSIT_GUARANTEE = 0xe8f3c4cC21A6fd4e00549d0D3a9ae386D93848e0; // 20%  = 50,000,000
-    address public constant WALLET_MARKETING         = 0xAe6a22301FBe6429ce6aC8782691Ed2b63130C6B; // 15%  = 37,500,000
-    address public constant WALLET_TEAM              = 0x9Db9B9Ed9A42e07360cdE063177A4dFb8DfFa155; // 10%  = 25,000,000
-    address public constant WALLET_OPERATIONS        = 0x9e902c0c21C908f7A7e005D8f73D2B7251995E99; // 10%  = 25,000,000
-    // -----------------------------------------------------
+  address public constant LIQUIDITY_WALLET =
+    0x1Dd89353a0bF930C2015154f12D256b9DD80027e;
 
-    mapping(address => uint256) private _balanceOf;
-    mapping(address => mapping(address => uint256)) private _allowance;
+address public constant COMMUNITY_REWARDS_WALLET =
+    0xe791839b44Ae192e63adf26Ada85c342dc0e3392;
 
-    event Transfer(address indexed from, address indexed to, uint256 value);
-    event Approval(address indexed from, address indexed spender, uint256 value);
+address public constant ECOSYSTEM_GROWTH_WALLET =
+    0xE728Fc37B2FCC194860eA0C188f0225B363220fD;
 
-    constructor() {
-        require(WALLET_LIQUIDITY != address(0), "liquidity=0");
-        require(WALLET_TREASURY != address(0), "treasury=0");
-        require(WALLET_DEPOSIT_GUARANTEE != address(0), "guarantee=0");
-        require(WALLET_MARKETING != address(0), "marketing=0");
-        require(WALLET_TEAM != address(0), "team=0");
-        require(WALLET_OPERATIONS != address(0), "operations=0");
+address public constant FOUNDATION_TREASURY_WALLET =
+    0x876790b117Fcb71871d10F687828CC721180d6A8;
 
-        _mint(WALLET_LIQUIDITY,         25_000_000 * 10**uint256(decimals));
-        _mint(WALLET_TREASURY,          87_500_000 * 10**uint256(decimals));
-        _mint(WALLET_DEPOSIT_GUARANTEE, 50_000_000 * 10**uint256(decimals));
-        _mint(WALLET_MARKETING,         37_500_000 * 10**uint256(decimals));
-        _mint(WALLET_TEAM,              25_000_000 * 10**uint256(decimals));
-        _mint(WALLET_OPERATIONS,        25_000_000 * 10**uint256(decimals));
+address public constant RESEARCH_AND_DEVELOPMENT_WALLET =
+    0x2E4a908f78241AAb16c9D9CE26064d019AcB893b;
 
-        require(
-            _balanceOf[WALLET_LIQUIDITY]
-                + _balanceOf[WALLET_TREASURY]
-                + _balanceOf[WALLET_DEPOSIT_GUARANTEE]
-                + _balanceOf[WALLET_MARKETING]
-                + _balanceOf[WALLET_TEAM]
-                + _balanceOf[WALLET_OPERATIONS]
-                == totalSupply,
-            "supply mismatch"
-        );
+address public constant MARKETING_AND_PARTNERSHIPS_WALLET =
+    0x16c1b102237Bad2a8df743206A65E9054b860fb7;
+
+address public constant STRATEGIC_RESERVE_WALLET =
+    0x982D3E588CE56Cc2c13a542BB2a133EA80227991;
+
+address public constant TEAM_WALLET =
+    0x04Fd51FECe9f8D45cfcFAdF3B925069317c474B9;
+
+    constructor() ERC20("HORUS", "HORUS") {
+        _mint(LIQUIDITY_WALLET, 100_000_000 * TOKEN_UNIT);
+        _mint(COMMUNITY_REWARDS_WALLET, 200_000_000 * TOKEN_UNIT);
+        _mint(ECOSYSTEM_GROWTH_WALLET, 200_000_000 * TOKEN_UNIT);
+        _mint(FOUNDATION_TREASURY_WALLET, 220_000_000 * TOKEN_UNIT);
+        _mint(RESEARCH_AND_DEVELOPMENT_WALLET, 100_000_000 * TOKEN_UNIT);
+        _mint(MARKETING_AND_PARTNERSHIPS_WALLET, 100_000_000 * TOKEN_UNIT);
+        _mint(STRATEGIC_RESERVE_WALLET, 50_000_000 * TOKEN_UNIT);
+        _mint(TEAM_WALLET, 30_000_000 * TOKEN_UNIT);
+
+        assert(totalSupply() == TOTAL_SUPPLY);
     }
 
-    // Views
-    function balanceOf(address account) external view returns (uint256) {
-        return _balanceOf[account];
+    function decimals() public pure override returns (uint8) {
+        return TOKEN_DECIMALS;
     }
 
-    function allowance(address holder, address spender) external view returns (uint256) {
-        return _allowance[holder][spender];
-    }
-
-    // Actions
-    function transfer(address to, uint256 amount) external returns (bool) {
-        _transfer(msg.sender, to, amount);
-        return true;
-    }
-
-    function approve(address spender, uint256 amount) external returns (bool) {
-        _approve(msg.sender, spender, amount);
-        return true;
-    }
-
-    function transferFrom(address from, address to, uint256 amount) external returns (bool) {
-        uint256 current = _allowance[from][msg.sender];
-        require(current >= amount, "insufficient allowance");
-        unchecked { _allowance[from][msg.sender] = current - amount; }
-        _transfer(from, to, amount);
-        return true;
-    }
-
-    function increaseAllowance(address spender, uint256 added) external returns (bool) {
-        _approve(msg.sender, spender, _allowance[msg.sender][spender] + added);
-        return true;
-    }
-
-    function decreaseAllowance(address spender, uint256 subtracted) external returns (bool) {
-        uint256 current = _allowance[msg.sender][spender];
-        require(current >= subtracted, "decrease > allowance");
-        unchecked { _approve(msg.sender, spender, current - subtracted); }
-        return true;
-    }
-
-    // Internals
-    function _transfer(address from, address to, uint256 amount) internal {
-        require(from != address(0), "from=0");
-        require(to != address(0), "to=0");
-        uint256 bal = _balanceOf[from];
-        require(bal >= amount, "insufficient balance");
-        unchecked {
-            _balanceOf[from] = bal - amount;
-            _balanceOf[to] += amount;
-        }
-        emit Transfer(from, to, amount);
-    }
-
-    function _approve(address from, address spender, uint256 amount) internal {
-        require(from != address(0), "from=0");
-        require(spender != address(0), "spender=0");
-        _allowance[from][spender] = amount;
-        emit Approval(from, spender, amount);
-    }
-
-    function _mint(address to, uint256 amount) internal {
-        require(to != address(0), "mint to=0");
-        _balanceOf[to] += amount;
-        emit Transfer(address(0), to, amount);
+    function getOwner() external pure returns (address) {
+        return address(0);
     }
 }
