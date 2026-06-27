@@ -1,51 +1,119 @@
-# Horus Crypto (HORUS)
+# 🦅 HORUS
 
-Official documentation repository for Horus Crypto on BNB Smart Chain.
+### Secure. Transparent. Immutable.
+
+HORUS is a decentralized cryptocurrency built on **BNB Smart Chain (BEP-20)** with a fixed supply and a fully transparent smart contract.
+
+Designed to provide a fair, trustless, and permissionless ecosystem for digital assets.
+
+━━━━━━━━━━━━━━━━━━━━
 
 ## Token Information
 
-- Token Name: Horus Crypto
-- Symbol: HORUS
-- Network: BNB Smart Chain
-- Standard: BEP-20
-- Total Supply: 250,000,000
-- Decimals: 18
-- Contract Address:
-0xfecfcd3e136a1023e9e238d231805742a0ec40f0
+**Name:** HORUS
 
-## Key Characteristics
+**Symbol:** HORUS
 
-- No mint function
-- No burn mechanism
-- No transfer tax
-- No blacklist
-- No freeze capability
-- No withdrawal limits
-- Immutable contract structure
+**Network:** BNB Smart Chain (BEP-20)
 
-## Sale Clarification
+**Decimals:** 18
 
-Horus Crypto did not conduct any ICO, IEO, presale, or private sale.
-Token price is determined solely by open market trading on decentralized exchanges.
+**Total Supply:** **1,000,000,000 HORUS**
+
+━━━━━━━━━━━━━━━━━━━━
+
+## Smart Contract
+
+`0xaa235398f544F624a663d2B76f801177eE4E678A`
+
+Verify on BscScan
+
+https://bscscan.com/token/0xaa235398f544F624a663d2B76f801177eE4E678A
+
+━━━━━━━━━━━━━━━━━━━━
+
+## Token Distribution
+
+💧 Liquidity Wallet — **100,000,000 HORUS (10%)**
+
+🎁 Community Rewards — **200,000,000 HORUS (20%)**
+
+🌍 Ecosystem Growth — **200,000,000 HORUS (20%)**
+
+🏛 Foundation Treasury — **220,000,000 HORUS (22%)**
+
+🔬 Research & Development — **100,000,000 HORUS (10%)**
+
+🤝 Marketing & Partnerships — **100,000,000 HORUS (10%)**
+
+🛡 Strategic Reserve — **50,000,000 HORUS (5%)**
+
+👥 Team Wallet — **30,000,000 HORUS (3%)**
+
+━━━━━━━━━━━━━━━━━━━━
+
+## Smart Contract Features
+
+✅ Fixed Supply
+
+✅ Fully Decentralized
+
+✅ No Owner
+
+✅ Ownership Renounced
+
+✅ No Mint Function
+
+✅ No Burn Function
+
+✅ No Pause Function
+
+✅ No Blacklist
+
+✅ No Whitelist
+
+✅ No Taxes
+
+✅ No Buy Tax
+
+✅ No Sell Tax
+
+✅ No Transfer Tax
+
+✅ No Transaction Limits
+
+✅ No Wallet Limits
+
+✅ No Cooldown
+
+✅ No Anti-Bot Logic
+
+✅ No Trading Restrictions
+
+✅ No Proxy Contract
+
+✅ No Upgradeability
+
+✅ No Hidden Functions
+
+✅ No Privileged Functions
+
+✅ No Administrative Control
+
+✅ Transparent On-Chain
+
+✅ Immutable Smart Contract
+
+━━━━━━━━━━━━━━━━━━━━
 
 ## Official Website
 
 https://horuscrypto.com
 
-## Whitepaper
+━━━━━━━━━━━━━━━━━━━━
 
-See Horus_Crypto_Whitepaper_v1.0.pdf in this repository.
+**Secure • Transparent • Decentralized**
 
-## Social Links
+**No Owner. No Taxes. No Limits. No Hidden Functions.**
 
-Telegram:
-https://t.me/Horus_CryptoHQ
-
-Facebook:
-https://www.facebook.com/HorusCryptoBsc
-
-X (Twitter):
-https://x.com/HorusCryptoHQ
-
-Logo:
-https://horuscrypto.com/public/logo-horus.svg
+**Built for the Community.**
