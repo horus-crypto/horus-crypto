@@ -37,6 +37,10 @@ The HORUS token contract is publicly verifiable on BscScan:
 
 https://bscscan.com/token/0xaa235398f544F624a663d2B76f801177eE4E678A
 
+Official smart contract source file:
+
+[HorusToken.sol](https://github.com/horus-crypto/horus-crypto/blob/main/HorusToken.sol)
+
 ━━━━━━━━━━━━━━━━━━━━
 
 ## Smart Contract Features
@@ -89,13 +93,13 @@ Detailed wallet locks, liquidity policy, strategic reserve rules, and execution 
 
 The official whitepaper explains the token, contract structure, tokenomics, wallet allocation, smart contract features, and the role of HORUS inside the project ecosystem.
 
-📄 [HORUS Official Whitepaper](./HORUS-Official-Whitepaper.pdf)
+📄 [HORUS Official Whitepaper](https://github.com/horus-crypto/horus-crypto/blob/main/HORUS_Crypto_Whitepaper_PDF_ONLY_v1.0.pdf)
 
 ### 2. HORUS Token & HORUS1 Strategic Execution Report
 
 This report explains the operational strategy, early participant structure, wallet lock policy, liquidity approach, HORUS1 roadmap, PWA strategy, market launch plan, and the planned utility of HORUS Token inside HORUS1 where legally permitted.
 
-📄 [HORUS Token & HORUS1 Strategic Execution Report](./HORUS-Token-HORUS1-Strategic-Execution-Report.pdf)
+📄 [HORUS Token & HORUS1 Strategic Execution Report](https://github.com/horus-crypto/horus-crypto/blob/main/HORUS-Token-HORUS1-Strategic-Execution-Report.pdf.pdf)
 
 ━━━━━━━━━━━━━━━━━━━━
 
@@ -123,5 +127,5 @@ Website: https://horus1.com
 ```text
 HorusToken.sol
 README.md
-HORUS-Official-Whitepaper.pdf
-HORUS-Token-HORUS1-Strategic-Execution-Report.pdf
+HORUS_Crypto_Whitepaper_PDF_ONLY_v1.0.pdf
+HORUS-Token-HORUS1-Strategic-Execution-Report.pdf.pdf
