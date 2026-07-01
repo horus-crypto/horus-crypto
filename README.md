@@ -16,6 +16,7 @@ It is connected to the **HORUS1** ecosystem, starting with **HORUS1 Marketplace*
 - **BscScan:** https://bscscan.com/token/0xaa235398f544F624a663d2B76f801177eE4E678A
 - Official Telegram
 https://t.me/HorusHQ
+
 HORUS Token Lock:
 For transparency, all major HORUS allocation wallets are locked using PinkLock. Investors can verify the lock records directly through the official PinkLock page:
 https://www.pinksale.finance/pinklock/bsc/0xaa235398f544F624a663d2B76f801177eE4E678A
