@@ -1,119 +1,127 @@
 # 🦅 HORUS
 
-### Secure. Transparent. Immutable.
+### Utility-Oriented Token • Transparent Contract • Real Platform Ecosystem
 
-HORUS is a decentralized cryptocurrency built on **BNB Smart Chain (BEP-20)** with a fixed supply and a fully transparent smart contract.
+**HORUS** is a BEP-20 token deployed on **BNB Smart Chain**, designed with a fixed supply, a transparent smart contract, and no administrative control after deployment.
 
-Designed to provide a fair, trustless, and permissionless ecosystem for digital assets.
+HORUS is not presented as a standalone token without a project.  
+It is connected to the **HORUS1** ecosystem, starting with **HORUS1 Marketplace**, a real classified ads platform designed to serve users, merchants, and advertisers through free listings, optional paid services, and future token utility where legally permitted.
+
+━━━━━━━━━━━━━━━━━━━━
+
+## Official Links
+
+- **HORUS Crypto:** https://horuscrypto.com
+- **HORUS1 Marketplace:** https://horus1.com
+- **BscScan:** https://bscscan.com/token/0xaa235398f544F624a663d2B76f801177eE4E678A
 
 ━━━━━━━━━━━━━━━━━━━━
 
 ## Token Information
 
-**Name:** HORUS
-
-**Symbol:** HORUS
-
-**Network:** BNB Smart Chain (BEP-20)
-
-**Decimals:** 18
-
-**Total Supply:** **1,000,000,000 HORUS**
+| Item | Details |
+|---|---|
+| Name | HORUS |
+| Symbol | HORUS |
+| Network | BNB Smart Chain |
+| Standard | BEP-20 |
+| Decimals | 18 |
+| Total Supply | 1,000,000,000 HORUS |
+| Contract Address | `0xaa235398f544F624a663d2B76f801177eE4E678A` |
 
 ━━━━━━━━━━━━━━━━━━━━
 
 ## Smart Contract
 
-`0xaa235398f544F624a663d2B76f801177eE4E678A`
-
-Verify on BscScan
+The HORUS token contract is publicly verifiable on BscScan:
 
 https://bscscan.com/token/0xaa235398f544F624a663d2B76f801177eE4E678A
 
 ━━━━━━━━━━━━━━━━━━━━
 
-## Token Distribution
-
-💧 Liquidity Wallet — **100,000,000 HORUS (10%)**
-
-🎁 Community Rewards — **200,000,000 HORUS (20%)**
-
-🌍 Ecosystem Growth — **200,000,000 HORUS (20%)**
-
-🏛 Foundation Treasury — **220,000,000 HORUS (22%)**
-
-🔬 Research & Development — **100,000,000 HORUS (10%)**
-
-🤝 Marketing & Partnerships — **100,000,000 HORUS (10%)**
-
-🛡 Strategic Reserve — **50,000,000 HORUS (5%)**
-
-👥 Team Wallet — **30,000,000 HORUS (3%)**
-
-━━━━━━━━━━━━━━━━━━━━
-
 ## Smart Contract Features
 
-✅ Fixed Supply
+The HORUS token contract was designed to be simple, transparent, and verifiable.
 
-✅ Fully Decentralized
-
-✅ No Owner
-
-✅ Ownership Renounced
-
-✅ No Mint Function
-
-✅ No Burn Function
-
-✅ No Pause Function
-
-✅ No Blacklist
-
-✅ No Whitelist
-
-✅ No Taxes
-
-✅ No Buy Tax
-
-✅ No Sell Tax
-
-✅ No Transfer Tax
-
-✅ No Transaction Limits
-
-✅ No Wallet Limits
-
-✅ No Cooldown
-
-✅ No Anti-Bot Logic
-
-✅ No Trading Restrictions
-
-✅ No Proxy Contract
-
-✅ No Upgradeability
-
-✅ No Hidden Functions
-
-✅ No Privileged Functions
-
-✅ No Administrative Control
-
-✅ Transparent On-Chain
-
-✅ Immutable Smart Contract
+- Fixed total supply
+- No owner
+- No administrative control
+- No mint function after deployment
+- No burn function
+- No pause function
+- No blacklist
+- No whitelist
+- No buy tax
+- No sell tax
+- No transfer tax
+- No wallet limits
+- No transaction limits
+- No cooldown
+- No anti-bot logic
+- No proxy contract
+- No upgradeability
+- No hidden privileged functions
+- Transparent on-chain contract
+- Immutable token logic
 
 ━━━━━━━━━━━━━━━━━━━━
 
-## Official Website
+## Token Distribution
 
-https://horuscrypto.com
+| Wallet | Allocation | Amount |
+|---|---:|---:|
+| Liquidity Wallet | 10% | 100,000,000 HORUS |
+| Community Rewards | 20% | 200,000,000 HORUS |
+| Ecosystem Growth | 20% | 200,000,000 HORUS |
+| Foundation Treasury | 22% | 220,000,000 HORUS |
+| Research & Development | 10% | 100,000,000 HORUS |
+| Marketing & Partnerships | 10% | 100,000,000 HORUS |
+| Strategic Reserve | 5% | 50,000,000 HORUS |
+| Team Wallet | 3% | 30,000,000 HORUS |
+
+Detailed wallet locks, liquidity policy, strategic reserve rules, and execution structure are explained in the official project documents.
 
 ━━━━━━━━━━━━━━━━━━━━
 
-**Secure • Transparent • Decentralized**
+## Official Documents
 
-**No Owner. No Taxes. No Limits. No Hidden Functions.**
+### 1. HORUS Official Whitepaper
 
-**Built for the Community.**
+The official whitepaper explains the token, contract structure, tokenomics, wallet allocation, smart contract features, and the role of HORUS inside the project ecosystem.
+
+📄 [HORUS Official Whitepaper](./HORUS-Official-Whitepaper.pdf)
+
+### 2. HORUS Token & HORUS1 Strategic Execution Report
+
+This report explains the operational strategy, early participant structure, wallet lock policy, liquidity approach, HORUS1 roadmap, PWA strategy, market launch plan, and the planned utility of HORUS Token inside HORUS1 where legally permitted.
+
+📄 [HORUS Token & HORUS1 Strategic Execution Report](./HORUS-Token-HORUS1-Strategic-Execution-Report.pdf)
+
+━━━━━━━━━━━━━━━━━━━━
+
+## HORUS1 Marketplace
+
+**HORUS1** is the first operational project connected to the HORUS ecosystem.
+
+HORUS1 is a classified ads marketplace designed to support:
+
+- Free basic listings
+- Optional paid promotional services
+- Featured ads
+- Merchant packages
+- PWA-based user acquisition
+- Future HORUS Token payment utility where legally permitted
+
+The strategic goal is to build real platform usage first, then connect HORUS Token to practical services inside the ecosystem.
+
+Website: https://horus1.com
+
+━━━━━━━━━━━━━━━━━━━━
+
+## Repository Contents
+
+```text
+HorusToken.sol
+README.md
+HORUS-Official-Whitepaper.pdf
+HORUS-Token-HORUS1-Strategic-Execution-Report.pdf
